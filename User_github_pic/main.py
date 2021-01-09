@@ -4,24 +4,19 @@ from bs4 import BeautifulSoup
 from config import DATABASE
 
 def add_user_github_pic():
-    db = mysql.connector.connect(
-        host = DATABASE['host'],
-        user = DATABASE['user'],
-        password = DATABASE['password'],
-        database = DATABASE['database']
-    )
+    db = mysql.connector.connect(**DATABASE)
 
     cursor = db.cursor()
 
-    cursor.execute("SELECT id, user_github FROM membre WHERE user_github_pic IS NULL;")
+    cursor.execute("SELECT id, user_github FROM membre WHERE user_github IS NOT NULL AND user_github_pic IS NULL;")
 
     result = cursor.fetchall()
 
     for tuple in result:
-        if tuple[1] != 'null' and tuple[1] != None:
-            print('\n[INFO] ', tuple[0], '=>', tuple[1])
-            cursor.execute('UPDATE membre SET user_github_pic=%s WHERE id=%s', (get_user_github_pic('https://github.com/'+tuple[1]), tuple[0]))
-            db.commit()
+        print('\n[INFO] ', tuple[0], '=>', tuple[1])
+        cursor.execute('UPDATE membre SET user_github_pic=%s WHERE id=%s', (get_user_github_pic('https://github.com/'+tuple[1]), tuple[0]))
+        
+    db.commit()
 
     cursor.close()
     db.close()
