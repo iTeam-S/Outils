@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import mysql.connector
 
 database = mysql.connector.connect(
@@ -5,3 +6,11 @@ database = mysql.connector.connect(
   user="",
   password=""
 )
+=======
+DATABASE = {
+  'host' : "",
+  'user' : "",
+  'password' : "",
+  'database' : ""
+}
+>>>>>>> a05c59e... Remove import
