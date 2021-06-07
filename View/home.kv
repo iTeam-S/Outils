@@ -1,0 +1,22 @@
+#:kivy 2.0.0
+#:import get_color_from_hex kivy.utils.get_color_from_hex
+<HomeScreen>
+	MDBoxLayout:
+		orientation: "vertical"
+		MDBottomAppBar:
+			md_bg_color: get_color_from_hex('008080')
+			MDToolbar:
+				title: "iTeam-$ Outils"
+				elevation: 5
+				icon: "github"
+				icon_color: get_color_from_hex('008080')
+				left_action_items: [["menu", lambda x: None]]
+				right_action_items: [["dots-vertical", lambda x: None ]]
+				on_action_button:	root.view_repos()
+				type: "bottom"
+				mode: "center"
+				
+
+		MDLabel:
+			text: "Bienvenue"
+			halign: "center"
