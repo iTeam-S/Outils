@@ -1,22 +1,84 @@
 #:kivy 2.0.0
 #:import get_color_from_hex kivy.utils.get_color_from_hex
+
 <HomeScreen>
 	MDBoxLayout:
 		orientation: "vertical"
 		MDBottomAppBar:
 			md_bg_color: get_color_from_hex('008080')
+
 			MDToolbar:
-				title: "iTeam-$ Outils"
+				title: "Outil-$"
 				elevation: 5
 				icon: "github"
 				icon_color: get_color_from_hex('008080')
-				left_action_items: [["menu", lambda x: None]]
-				right_action_items: [["dots-vertical", lambda x: None ]]
+				left_action_items: [['menu', lambda x: nav_drawer.set_state("open")]]
+				right_action_items: [["information-variant", lambda x: root.show_help(x)]]
 				on_action_button:	root.view_repos()
 				type: "bottom"
 				mode: "center"
-				
 
-		MDLabel:
-			text: "Bienvenue"
-			halign: "center"
+	MDNavigationLayout:
+		ScreenManager:
+			MDScreen:
+				name: "scr user_github_pic"
+			
+
+		MDNavigationDrawer:
+			id: nav_drawer
+            ContentNavigationDrawer:
+            	nav_drawer: nav_drawer
+
+
+
+<ContentNavigationDrawer>:
+	orientation: "vertical"
+    padding: "8dp"
+    spacing: "8dp"
+
+    AnchorLayout:
+        anchor_x: "center"
+        size_hint_y: None
+        height: avatar.height
+
+        Image:
+            id: avatar
+            size_hint: None, None
+            size: "56dp", "56dp"
+            source: "data/img/LOGO.png"
+
+    MDLabel:
+        text: "iTeam-$ Development"
+        font_style: "Button"
+        size_hint_y: None
+        halign: 'center'
+        height: self.texture_size[1]
+
+    MDLabel:
+        text: "contact@iteam-s.xyz"
+        font_style: "Caption"
+        size_hint_y: None
+        height: self.texture_size[1]
+        halign: 'center'
+
+    MDSeparator:
+    	height: 3
+
+
+    ScrollView:
+        MDList:
+            OneLineIconListItem:
+                text: "User github Picture"
+                on_press:
+                    root.nav_drawer.set_state("close")
+                ImageLeftWidget:
+                    source: "data/img/github.png"
+
+            OneLineIconListItem:
+                text: "Automate Deployement"
+                on_press:
+                    root.nav_drawer.set_state("close")
+                ImageLeftWidget:
+                    source: "data/img/ubuntu.png"
+
+
