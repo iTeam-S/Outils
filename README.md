@@ -3,7 +3,7 @@
 Regroupement de tous les scripts nécessaires à l'équipe
 
 
-<img src="https://github.com/iTeam-S/Outils/tree/main/preview/prev_00.png">
+<img src="https://raw.githubusercontent.com/iTeam-S/Outils/main/preview/prev_00.png">
 
 
 - User_Github_Pic
