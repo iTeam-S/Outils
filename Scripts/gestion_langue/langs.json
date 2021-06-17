@@ -1,0 +1,22 @@
+{
+  "bienvenue": {
+    "en": "Welcome",
+    "fr": "Bienvenue",
+    "mg": "Tongasoa"
+  },
+  "mot_de_passe_incorrecte": {
+    "en": "Wrong password",
+    "fr": "Mot de passe incorrect",
+    "mg": "Diso ny teny miafina"
+  },
+  "mot_de_passe_oubliee": {
+    "en": "Forgot password",
+    "fr": "Mot de passe oubli\u00e9",
+    "mg": "Hadino ny teny miafina"
+  },
+  "se_connecter": {
+    "en": "Log in",
+    "fr": "Se  Connecter",
+    "mg": "Hiditra"
+  }
+}
