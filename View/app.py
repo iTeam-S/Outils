@@ -41,19 +41,16 @@ class HomeScreen(MDScreen):
             animation_type="pulse",
             color_button=get_color_from_hex('008080'),
             font_style_text="Body2",
-            # font_style_title="H4"
         ).fire(
             type="info",
-            text="Outil regroupant les differents scripts de la Communauté.\n" + \
-            "Dans le but de pouvoir utiliser depuis une interface graphique",
+            text="Application regroupant les différents scripts de la communauté.\n" + \
+            "Dans le but de pouvoir les utiliser depuis une interface graphique",
         )
 
 
     def on_pre_open(self, event):
-        print("ato")
-
+        pass
         
-
 
 
 Builder.load_file(os.path.join(os.path.dirname(__file__), 'home.kv'))

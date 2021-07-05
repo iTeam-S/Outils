@@ -3,7 +3,7 @@ from Controller.app import AppController
 from Model.app import AppModel
 
 
-class Application(MDApp):
+class Outils(MDApp):
 	def __init__(self, **kwargs):
 		super().__init__(**kwargs)
 		self.model = AppModel()
@@ -15,4 +15,4 @@ class Application(MDApp):
 
 
 
-Application().run()
+Outils().run()

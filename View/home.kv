@@ -8,7 +8,7 @@
 			md_bg_color: get_color_from_hex('008080')
 
 			MDToolbar:
-				title: "Outil-$"
+				title: "OUTILS"
 				elevation: 5
 				icon: "github"
 				icon_color: get_color_from_hex('008080')
@@ -21,7 +21,7 @@
 	MDNavigationLayout:
 		ScreenManager:
 			MDScreen:
-				name: "scr user_github_pic"
+				name: "user_github_pic"
 			
 
 		MDNavigationDrawer:
@@ -50,13 +50,14 @@
     MDLabel:
         text: "iTeam-$ Development"
         font_style: "Button"
+        font_size: "15sp"
         size_hint_y: None
         halign: 'center'
         height: self.texture_size[1]
 
     MDLabel:
         text: "contact@iteam-s.xyz"
-        font_style: "Caption"
+        font_size: "15sp"
         size_hint_y: None
         height: self.texture_size[1]
         halign: 'center'
@@ -68,17 +69,25 @@
     ScrollView:
         MDList:
             OneLineIconListItem:
-                text: "User github Picture"
+                text: "Chargement des images de profils"
+                font_size: "14sp"
                 on_press:
                     root.nav_drawer.set_state("close")
                 ImageLeftWidget:
                     source: "data/img/github.png"
 
             OneLineIconListItem:
-                text: "Automate Deployement"
+                text: "Automatisation des deploiements"
                 on_press:
                     root.nav_drawer.set_state("close")
                 ImageLeftWidget:
                     source: "data/img/ubuntu.png"
+            
+            OneLineIconListItem:
+                text: "Gestion de portfolio"
+                on_press:
+                    root.nav_drawer.set_state("close")
+                ImageLeftWidget:
+                    source: "data/img/portfolio.png"
 
 
