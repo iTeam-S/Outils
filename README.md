@@ -16,5 +16,10 @@ Regroupement de tous les scripts nécessaires à l'équipe
         Script pour deployer automatiquement une application dans le serveur
         
         
+- Generateur de langue
+        
+         Script pour recevoir un fichier json de traduction (pour utilisation offline)
+        
+        
  ## Contributeurs
 ![Image des contributeurs GitHub](https://contrib.rocks/image?repo=iTeam-S/Outils)
