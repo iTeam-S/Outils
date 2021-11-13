@@ -1,0 +1,1 @@
+ssh iteams@iteam-s.mg 'bash -s' < script.sh
