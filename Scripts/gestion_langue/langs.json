@@ -1,8 +1,148 @@
 {
+  "Cours_recent": {
+    "en": "Recent course",
+    "fr": "Cours r\u00e9cent",
+    "mg": null
+  },
+  "acceder_au_cours": {
+    "en": "Access to this course",
+    "fr": "Accerder \u00e0 ce cours",
+    "mg": "Hiditra amin'io taranja io"
+  },
+  "annonce": {
+    "en": "Announcement",
+    "fr": "Annonce",
+    "mg": null
+  },
+  "aucun_contenu_trouvee": {
+    "en": "No content",
+    "fr": "Aucun contenu",
+    "mg": null
+  },
+  "aucun_cours_trouv\u00e9": {
+    "en": "There's no course found ",
+    "fr": "Il n'y a aucun cours",
+    "mg": "Tsy misy taranja hita "
+  },
+  "aucun_resultat": {
+    "en": null,
+    "fr": "Aucun r\u00e9sultat trouv\u00e9 pour votre recherche",
+    "mg": null
+  },
   "bienvenue": {
     "en": "Welcome",
     "fr": "Bienvenue",
     "mg": "Tongasoa"
+  },
+  "choisir_votre_langue": {
+    "en": "Please, choose your language.",
+    "fr": "Veullez choisir votre langue.",
+    "mg": "Azafady, safidio ny fiteninao"
+  },
+  "choix_incorrecte": {
+    "en": "Your choice seems incorrect.",
+    "fr": "Votre choix semble incorrect.",
+    "mg": "Toa tsy mety ny safidinao."
+  },
+  "consigne": {
+    "en": null,
+    "fr": "Consigne",
+    "mg": null
+  },
+  "contenue_de_cours": {
+    "en": null,
+    "fr": "Contenu du cours",
+    "mg": null
+  },
+  "date_limit": {
+    "en": "deadline",
+    "fr": "Date Limite",
+    "mg": null
+  },
+  "description": {
+    "en": "Summary",
+    "fr": "Description",
+    "mg": "Mombamomba"
+  },
+  "devoir_envoyee": {
+    "en": "Your exercise has been sent",
+    "fr": "Votre devoir a \u00e9t\u00e9 envoy\u00e9.",
+    "mg": null
+  },
+  "devoirs": {
+    "en": "Homework",
+    "fr": "Devoirs",
+    "mg": "entimody"
+  },
+  "download": {
+    "en": null,
+    "fr": "T\u00e9l\u00e9charger",
+    "mg": null
+  },
+  "download_image": {
+    "en": "Download as Picture",
+    "fr": "Voir en Image",
+    "mg": null
+  },
+  "download_pdf": {
+    "en": "Download as PDF",
+    "fr": "Voir en PDF",
+    "mg": null
+  },
+  "entrer_recherche": {
+    "en": null,
+    "fr": "Entrer votre recherche",
+    "mg": null
+  },
+  "entrer_votre_password_moodle": {
+    "en": "Enter your Moodle password.",
+    "fr": "Entrez votre mot de passe Moodle.",
+    "mg": "Ampidiro ny teny miafinanao amin'ny Moodle."
+  },
+  "entrer_votre_recherche": {
+    "en": "What do you want to research?",
+    "fr": "Entrer votre recherche",
+    "mg": "Inona no tianao hotadiavina?"
+  },
+  "entrer_votre_username_mail_moodle": {
+    "en": "Enter your username or your Email on Moodle",
+    "fr": "Entrez votre nom d'utilisateur ou votre Email sur Moodle ",
+    "mg": "Ampidiro ny anaranao na ny  mailaka Moodle."
+  },
+  "erreur_token": {
+    "en": null,
+    "fr": "Session expir\u00e9",
+    "mg": null
+  },
+  "images": {
+    "en": null,
+    "fr": "Images",
+    "mg": null
+  },
+  "langue_mis_a_jour": {
+    "en": "Your language has been updated.",
+    "fr": "Votre langue a \u00e9t\u00e9 mise \u00e0 jour.",
+    "mg": "Niova ny fiteninao."
+  },
+  "liste_cours": {
+    "en": "Course lists",
+    "fr": "Lister les cours",
+    "mg": "Lisitry ny taranja"
+  },
+  "menu_a_afficher": {
+    "en": "Which menu do you want to display?",
+    "fr": "Quel menu voulez-vous afficher?",
+    "mg": "Lisitry ny inona no tianao aseho?"
+  },
+  "mes_cours": {
+    "en": "My courses",
+    "fr": "Mes cours",
+    "mg": "Taranjako"
+  },
+  "modifier_devoir": {
+    "en": "Edit the exercise",
+    "fr": "Modifier le devoir",
+    "mg": null
   },
   "mot_de_passe_incorrecte": {
     "en": "Wrong password",
@@ -14,9 +154,129 @@
     "fr": "Mot de passe oubli\u00e9",
     "mg": "Hadino ny teny miafina"
   },
+  "non": {
+    "en": "No",
+    "fr": "Non",
+    "mg": "Tsia"
+  },
+  "nouveau_devoir": {
+    "en": null,
+    "fr": "Vous avez r\u00e9\u00e7u un nouveau devoir.",
+    "mg": null
+  },
+  "options_a_afficher": {
+    "en": "What do you want to see?",
+    "fr": "Que voulez-vous consulter?",
+    "mg": "Inona no tianao hojerena?"
+  },
+  "options_a_faire": {
+    "en": "What would you do?",
+    "fr": "Que voulez-vous faire?",
+    "mg": "Inona no tianao hatao?"
+  },
+  "options_a_telecharger": {
+    "en": "Do you want to download ...?",
+    "fr": "Voulez-vous t\u00e9l\u00e9charger... ?",
+    "mg": null
+  },
+  "oui": {
+    "en": "Yes",
+    "fr": "Oui",
+    "mg": "Eny"
+  },
+  "page": {
+    "en": "Pages",
+    "fr": "Pages de cours",
+    "mg": "Pejy"
+  },
+  "page_suivante": {
+    "en": null,
+    "fr": "Page suivante",
+    "mg": null
+  },
+  "pages_web": {
+    "en": null,
+    "fr": "Pages web",
+    "mg": null
+  },
+  "pas_de_titre": {
+    "en": null,
+    "fr": "titre inconnu",
+    "mg": null
+  },
+  "recherche_cours": {
+    "en": "Find a course",
+    "fr": "Rechercher un cours",
+    "mg": "Hitady taranja"
+  },
+  "rendre_devoir": {
+    "en": "Submit the exercise",
+    "fr": "Rendre le devoir",
+    "mg": "Mamerina entimody"
+  },
+  "scorm": {
+    "en": null,
+    "fr": "Scorm",
+    "mg": null
+  },
   "se_connecter": {
     "en": "Log in",
     "fr": "Se  Connecter",
     "mg": "Hiditra"
+  },
+  "support_de_cours": {
+    "en": "course file",
+    "fr": "Support de cours",
+    "mg": null
+  },
+  "tableau_de_bord": {
+    "en": "Dashboard",
+    "fr": "Tableau de Bord",
+    "mg": "fafana"
+  },
+  "texte_du_devoir": {
+    "en": "Enter the text to send",
+    "fr": "Entrer le texte \u00e0 envoyer. ",
+    "mg": null
+  },
+  "tous_les_cours": {
+    "en": "All the courses",
+    "fr": "Tous les cours",
+    "mg": "Ny taranja rehetra"
+  },
+  "un_instant": {
+    "en": null,
+    "fr": "Un instant, svp",
+    "mg": null
+  },
+  "une_erreur_s_est_produite": {
+    "en": "An error occurred",
+    "fr": "Une erreur s'est produite",
+    "mg": "Nisy lesoka nitranga"
+  },
+  "upload_piece_jointe": {
+    "en": "Insert the attachment (File to send)",
+    "fr": "Ins\u00e9rer la pi\u00e8ce-jointe (Fichier \u00e0 envoyer)",
+    "mg": null
+  },
+  "veuillez_patientez": {
+    "en": null,
+    "fr": "Veuillez patientez svp.",
+    "mg": null
+  },
+  "voir_le_cours": {
+    "en": "View course",
+    "fr": "Voir le cours",
+    "mg": "Hanokatra ny taranja"
+  },
+  "vous_devez_d_abord_vous_connecter": {
+    "en": "You must login first.",
+    "fr": "Vous devez d'abord vous connecter.",
+    "mg": "Mila miditra aloha ianao."
+  },
+  "vous_n_etes_plus_connectee": {
+    "en": "You are no longer connected",
+    "fr": "Vous n'\u00eates plus connect\u00e9(e)",
+    "mg": "Tsy tafiditra intsony ianao"
   }
 }
