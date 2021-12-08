@@ -19,6 +19,10 @@ Regroupement de tous les scripts nécessaires à l'équipe
 - Generateur de langue
         
          Script pour recevoir un fichier json de traduction (pour utilisation offline)
+
+- Configuration de compte
+        
+         Script pour créer automatiquement les différents compte dans le serveur pour un utilisateurs
         
         
  ## Contributeurs
